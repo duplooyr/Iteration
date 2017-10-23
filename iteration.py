@@ -13,3 +13,9 @@ def iterate (list):
 def print_scores(names, scores):
     for i in range(0, len(names)):
         print names[i] , " scored " , scores[i]
+
+#Filter Pattern 
+def congratulations(names, scores):
+    for i in range(0, len(names)):
+        if (scores[i] == 100):
+            print "Congrats", names[i], "! You got a perfect score!"
